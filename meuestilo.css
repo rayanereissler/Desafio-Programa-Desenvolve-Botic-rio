@@ -1,0 +1,223 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.geral {
+  display: flex;
+  width: 70%;
+}
+
+.principal {
+  background-color: #4f4f4f;
+  width: 40%;
+}
+
+.foto {
+  margin: 68px 136px 68px 68px;
+  
+}
+
+.foto img {
+  width: 156px;
+  height: 156px;
+  border-radius: 50%;
+}
+
+.contato {
+  margin-left: 68px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 50px;
+}
+
+.contato h2 {
+  font-size: 32px;
+  font-weight: 700px;
+  letter-spacing: 6px;
+  line-height: 39px;
+  color: white;
+  padding: 10px 0;
+}
+
+.contato h3 {
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 20px;
+  color: aqua;
+  padding-bottom: 10px;
+}
+
+.contato p {
+  font-size: 16px;
+  font-weight: 600px;
+  line-height: 22px;
+  color: #d0d0d0;
+  padding-bottom: 25px;
+}
+
+.barra {
+  width: 100%;
+  height: 2px;
+  background-color: aqua;
+}
+
+.perfil {
+  margin: 0 68px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 68px;
+  text-align: justify;
+}
+
+.perfil h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 39px;
+  letter-spacing: 6px;
+  color: white;
+  padding-top: 44px;
+  padding-bottom: 10px;
+}
+
+.perfil p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #d0d0d0;
+}
+
+.secundaria {
+  background-color: whitesmoke;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.secundaria h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 39px;
+  letter-spacing: 6px;
+  color: aqua;
+  padding-bottom: 17px;
+}
+
+.titlle {
+  margin: 68px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titlle h1 {
+  font-size: 46px;
+  line-height: 58px;
+  font-weight: bold;
+  color: aqua;
+}
+
+.titlle p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.educacao {
+  margin-left: 68px;
+  padding-bottom: 48px;
+}
+
+.educacao p {
+  font-size: 16px;
+  line-height: 32px;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.habilidades {
+  margin-left: 68px;
+  padding-bottom: 48px;
+}
+
+.habilidades p {
+  font-size: 16px;
+  line-height: 32px;
+  color: black;
+}
+
+.experiencias {
+  margin-left: 68px;
+  padding-bottom: 48px;
+}
+
+.experiencias p {
+  font-size: 16px;
+  line-height: 32px;
+  color: black;
+  padding-bottom: 5px;
+  margin-right: 68px;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 128px;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.pontinhoazul {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.pontinhopreto {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.nivel-habilidade {
+  display: flex;
+  gap: 10px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1200px) {
+  .geral {
+    width: 100%;
+  }
+
+  .black {
+    width: 30%;
+  }
+
+  .black section {
+    margin-left: 10px;
+  }
+
+  .black .perfil {
+    margin-right: 10px;
+  }
+
+  .white {
+    width: 70%;
+  }
+}
+
+@media (max-width: 700px) {
+  .geral {
+    flex-direction: column;
+  }
+
+  .black {
+    width: 100%;
+  }
+
+  .white {
+    width: 100%;
+  }
+}
